@@ -3,6 +3,8 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsArrowRight, BsDownload, BsLinkedin, BsGithub } from "react-icons/bs";
 
 export default function Intro() {
 	return (
@@ -45,8 +47,33 @@ export default function Intro() {
 				<span className="font-bold underline">
 					Javascript, React and Node.js
 				</span>{" "}
-				I enjoy building <span className="italic">websites & apps</span>.
+				I enjoy building{" "}
+				<span className="italic">
+					websites & apps, fashion, and photography
+				</span>
+				.
 			</motion.h1>
+
+			<motion.div
+				className="flex flex-col sm:flex-row justify-center gap-2 px-4 text-lg font-medium "
+				initial={{ opacity: 0, y: 100 }}
+				animate={{ opacity: 1, y: 0 }}
+				transition={{ duration: 0.5, delay: 0.3 }}>
+				<a className="text-white  bg-gray-900 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 outline-none active:scale-105 transition cursor-pointer">
+					Download CV <BsDownload />
+				</a>
+				<Link
+					href="#contact"
+					className="bg-white flex items-center gap-2 px-7 py-3 rounded-full hover:scale-110 outline-none active:scale-105 transition">
+					Contact me here <BsArrowRight />
+				</Link>
+				<a className="bg-white text-gray-900 p-4 flex items-center gap-2 rounded-full hover:scale-110 outline-none active:scale-105 transition cursor-pointer">
+					<BsLinkedin />
+				</a>
+				<a className="bg-white text-gray-900 p-4 flex items-center gap-2 rounded-full hover:scale-110 outline-none active:scale-105 transition cursor-pointer">
+					<BsGithub />
+				</a>
+			</motion.div>
 		</section>
 	);
 }

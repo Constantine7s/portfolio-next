@@ -43,7 +43,8 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.5, delay: 0.2 }}>
 				<span className="font-bold">Hi, I'm Konstantin. </span>I'm a{" "}
-				<span className="font-bold">full-stack developer</span> with a focus on{" "}
+				<span className="font-bold">full-stack developer </span>based in Tokyo.
+				My primary focus is{" "}
 				<span className="font-bold underline">
 					Javascript, React and Node.js
 				</span>{" "}

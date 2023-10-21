@@ -47,11 +47,8 @@ export default function Intro() {
 				<span className="font-bold underline">
 					Javascript, React and Node.js
 				</span>{" "}
-				I enjoy building{" "}
-				<span className="italic">
-					websites & apps, fashion, and photography
-				</span>
-				.
+				I enjoy fashion, photography, and{" "}
+				<span className="italic">building websites and apps</span>.
 			</motion.h1>
 
 			<motion.div

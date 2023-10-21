@@ -11,6 +11,7 @@ export default function Home() {
 			<About />
 			<Divider />
 			<Projects />
+			<Divider />
 		</main>
 	);
 }

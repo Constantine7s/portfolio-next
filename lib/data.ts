@@ -32,20 +32,13 @@ export const projectsData = [
 		title: "TalkSpace",
 		description:
 			"A real-time chat application with a multi-room feature, that allows users to engage in diverse conversations across multiple chat rooms.",
-		tags: [
-			"React",
-			"Node.js",
-			"Express.js",
-			"MongoDB",
-			"Socket.IO",
-			"ChakraUI",
-		],
+		tags: ["React", "Node.js", "Express.js", "MongoDB", "ChakraUI"],
 		imageUrl: talkspaceImg,
 	},
 	{
 		title: "PlanOut",
 		description:
-			"A group task management web application, that allows users to easily create and manage events",
+			"A group task management web application, that allows users to easily create and manage events.",
 		tags: [
 			"Next.js",
 			"Typescript",
@@ -53,7 +46,6 @@ export const projectsData = [
 			"Express.js",
 			"PostgreSQL",
 			"Firebase",
-			"Socket.IO",
 			"Docker",
 			"Tailwind",
 		],

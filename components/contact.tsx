@@ -1,11 +1,18 @@
+"use client";
+
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function Contact() {
 	return (
-		<section
+		<motion.section
 			className="mb-20 px-3 sm:mb-28 w-[min(100%,38rem)]"
-			id="contact">
+			id="contact"
+			initial={{ opacity: 0 }}
+			whileInView={{ opacity: 1 }}
+			viewport={{ once: true }}
+			transition={{ duration: 1.5 }}>
 			<h2 className="text-3xl font-medium capitalize text-center mb-10">
 				Contact Me
 			</h2>
@@ -33,6 +40,6 @@ export default function Contact() {
 					Submit <FaPaperPlane />
 				</button>
 			</form>
-		</section>
+		</motion.section>
 	);
 }

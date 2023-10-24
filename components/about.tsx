@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function About() {
 	return (
 		<motion.section
-			className="scroll-mt-28"
+			className="scroll-mt-28 px-3"
 			initial={{ y: 100, opacity: 0 }}
 			animate={{ y: 0, opacity: 1 }}
 			transition={{

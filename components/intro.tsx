@@ -8,7 +8,9 @@ import { BsArrowRight, BsDownload, BsLinkedin, BsGithub } from "react-icons/bs";
 
 export default function Intro() {
 	return (
-		<section className="mb-28 max-w-[50rem] sm:mb-0 ">
+		<section
+			className="mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem]"
+			id="home">
 			<div className="flex items-center justify-center">
 				<div className="relative">
 					<motion.div

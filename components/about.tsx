@@ -6,12 +6,14 @@ import { motion } from "framer-motion";
 export default function About() {
 	return (
 		<motion.section
+			className="scroll-mt-28"
 			initial={{ y: 100, opacity: 0 }}
 			animate={{ y: 0, opacity: 1 }}
 			transition={{
 				duration: 0.5,
 				delay: 0.4,
-			}}>
+			}}
+			id="about">
 			<h2 className="text-3xl font-medium capitalize text-center  mb-8">
 				About Me
 			</h2>

@@ -9,7 +9,7 @@ import { BsArrowRight, BsDownload, BsLinkedin, BsGithub } from "react-icons/bs";
 export default function Intro() {
 	return (
 		<section
-			className="mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem]"
+			className="max-w-[50rem] sm:mb-0 scroll-mt-[100rem]"
 			id="home">
 			<div className="flex items-center justify-center">
 				<div className="relative">
@@ -60,26 +60,26 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.5, delay: 0.3 }}>
 				<a
-					className="text-white  bg-gray-900 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 outline-none active:scale-105 transition cursor-pointer"
+					className="text-white  bg-gray-900 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 hover:shadow-lg outline-none active:scale-105 transition cursor-pointer"
 					href="/Konstantin_Shambazov_Resume.pdf"
 					download>
 					Download CV <BsDownload />
 				</a>
 				<Link
 					href="#contact"
-					className="bg-white flex items-center gap-2 px-7 py-3 rounded-full hover:scale-110 outline-none active:scale-105 transition border border-black/10">
+					className="bg-white flex items-center gap-2 px-7 py-3 rounded-full hover:scale-110 outline-none active:scale-105 hover:shadow-lg transition border border-black/10">
 					Contact me here <BsArrowRight />
 				</Link>
 				<a
 					href="https://www.linkedin.com/in/kshambazov/"
 					target="_blank"
-					className="bg-white text-gray-900 p-4 flex items-center gap-2 rounded-full hover:scale-[1.15] outline-none active:scale-105 transition cursor-pointer border border-black/10">
+					className="bg-white text-gray-900 p-4 flex items-center gap-2 rounded-full hover:scale-[1.15] outline-none active:scale-105 hover:shadow-lg transition cursor-pointer border border-black/10">
 					<BsLinkedin />
 				</a>
 				<a
 					href="https://github.com/Constantine7s"
 					target="_blank"
-					className="bg-white text-gray-900 p-4 flex items-center gap-2 rounded-full hover:scale-[1.15] outline-none active:scale-105 transition cursor-pointer border border-black/10">
+					className="bg-white text-gray-900 p-4 flex items-center gap-2 rounded-full hover:scale-[1.15] outline-none active:scale-105 transition hover:shadow-lg cursor-pointer border border-black/10">
 					<BsGithub />
 				</a>
 			</motion.div>

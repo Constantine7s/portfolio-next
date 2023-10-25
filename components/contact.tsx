@@ -8,11 +8,11 @@ export default function Contact() {
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
 
-	const handleSubmit = async (e) => {
+	const handleSubmit = async (e: React.FormEvent) => {
 		const endpoint = process.env.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT;
 
 		e.preventDefault();
-		const response = await fetch(endpoint, {
+		const response = await fetch(`${endpoint}`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

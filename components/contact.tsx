@@ -64,7 +64,8 @@ export default function Contact() {
 			id="contact"
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
-			viewport={{ once: true }}>
+			viewport={{ once: true }}
+			transition={{ duration: 1.5 }}>
 			<h2 className="text-3xl font-medium capitalize text-center mb-10">
 				Contact Me
 			</h2>

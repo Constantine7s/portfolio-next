@@ -11,7 +11,7 @@ export default function Footer() {
 			viewport={{ once: true }}
 			transition={{ duration: 1.5 }}>
 			<small className="mb-2 block text-xs">
-				&copy; 2023 Konstantin Shambazov. All rights reserved.
+				&copy; 2025 Konstantin Shambazov. All rights reserved.
 			</small>
 			<p className="text-xs">
 				<span className="font-semibold">About this website:</span> built with
